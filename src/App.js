@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+      <div class="header">
+        <h1>Jeff Smith</h1>
+        <h3>Computer Science Graduate</h3>
+        <p>I'm about to graduate a Bsc in Computer Science. I really like building cool visual projects and interpreting complex mathematical structures.</p>
+        
+        <h5>View My Profiles:</h5>
+        <a href="https://github.com/jeffcct">
+          <img class="icon" src="images/githubIcon.png" alt="" />
         </a>
-      </header>
+        <a href="https://editor.p5js.org/jffrysith/sketches">
+          <img class="icon" src="images/p5jsIcon.png" alt="" />
+        </a>
+        <a href="www.linkedin.com/in/jffrysith">
+          <img class="icon" src="images/LIIcon.png" alt="" />
+        </a>
+      </div>
+      <iframe src="https://editor.p5js.org/jffrysith/full/fnySISSqk" width="600px" height="400px"></iframe>
+
     </div>
   );
 }
