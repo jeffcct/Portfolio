@@ -21,7 +21,8 @@ function App() {
       </div>
       <iframe src="https://editor.p5js.org/jffrysith/full/fnySISSqk" width="600px" height="400px" title="Flow Field program"></iframe>
       <iframe src="https://editor.p5js.org/jffrysith/full/H5tJW2_JQ" width="600px" height="400px" title="DBScan clustering algorithm"></iframe>
-      <iframe src="https://editor.p5js.org/jffrysith/full/nWpAy8HGu" width="600px" height="400px" title="Wave Program"></iframe>
+      <iframe src="https://editor.p5js.org/jffrysith/full/iKUHwhWJz" width="600px" height="400px" title="Wave Program"></iframe>
+
     </div>
   );
 }
